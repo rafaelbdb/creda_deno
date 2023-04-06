@@ -1,5 +1,14 @@
 Main task:
+    Create an income and expense tracker app, with a login system.
+
+Estimated time (40 hours):
+    4 hours for planning;
+    36 hours for development;
 
 ✄ -----------------------
 Brainstorm:
     Ambient configuration:
+        [ ] Docker / Docker-compose
+        [ ] MongoDB
+        [ ] Git/GitHub
+        [ ] Deno (TypeScript Backend)
