@@ -1,0 +1,5 @@
+class Comment {
+  id: string
+  text: string
+  author: string
+}

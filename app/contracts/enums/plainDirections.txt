@@ -1,0 +1,10 @@
+enum plainDirections {
+  Up,
+  Down,
+  Left,
+  Right,
+  Up-Right,
+  Down-Right,
+  Up-Left,
+  Down-Left,
+}

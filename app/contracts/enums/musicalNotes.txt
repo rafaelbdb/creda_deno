@@ -1,0 +1,3 @@
+enum musicalNotes {
+    A, A#, B, C, C#, D, D#, E, F, F#, G, G#, Bb, Db, Eb, Gb, Ab
+}

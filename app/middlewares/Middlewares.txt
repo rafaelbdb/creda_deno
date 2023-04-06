@@ -1,0 +1,41 @@
+class Middlewares {
+    // Middleware to authenticate user before accessing protected routes
+    function authenticate(req, res, next) {
+    const token = req.headers.authorization;
+    if (!token) {
+        res.status(401).json({ message: "Unauthorized" });
+        return;
+    }
+    
+    const user = decodeToken(token);
+    if (!user) {
+        res.status(401).json({ message: "Invalid token" });
+        return;
+    }
+
+    req.user = user;
+    next();
+    }
+
+    // Middleware to check if user is the creator of a resource before allowing modifications
+    function checkCreator(req, res, next) {
+    const resourceId = req.params.id;
+    const userId = req.user.id;
+
+    // Query the database to check if user is the creator of the resource
+    const resource = db.query("SELECT created_by FROM resources WHERE id = ?", [resourceId]);
+
+    if (!resource || resource.created_by !== userId) {
+        res.status(403).json({ message: "Forbidden" });
+        return;
+    }
+
+    next();
+    }
+
+    // Middleware to handle errors
+    function errorHandler(err, req, res, next) {
+    console.error(err);
+    res.status(500).json({ message: "Internal server error" });
+    }
+}

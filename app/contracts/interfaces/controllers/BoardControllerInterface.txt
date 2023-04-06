@@ -1,0 +1,4 @@
+interface BoardControllerInterface extends AbstractController {
+  addUser(req: Request, res: Response): Promise<void>;
+  removeUser(req: Request, res: Response): Promise<void>;
+}

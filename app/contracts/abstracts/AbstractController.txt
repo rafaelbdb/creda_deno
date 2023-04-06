@@ -1,0 +1,6 @@
+abstract class AbstractController {
+  abstract create(req: Request, res: Response): Promise<void>;
+  abstract read(req: Request, res: Response): Promise<void>;
+  abstract update(req: Request, res: Response): Promise<void>;
+  abstract delete(req: Request, res: Response): Promise<void>;
+}

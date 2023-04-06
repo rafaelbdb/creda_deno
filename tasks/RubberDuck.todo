@@ -1,0 +1,55 @@
+/*
+ * Rubber Duck Technique - the Rubber Duck
+ *
+ * Describe your problem as EXTREMELY SIMPLIFIED AS POSSIBLE
+ * as if describing him to someone who doesn't know anything about the subject.
+ * Can be an inanimate object, like a rubber duck.
+ */
+
+Step 1:
+    Understand `EXACTLY` what is being asked.
+Step 2:
+    Plan the various steps necessary so that,
+    Given an X value, a Y result is returned.
+Step 3:
+    Break the problem down into smaller parts that you can easily solve.
+
+Brief description of the problem:
+    [-]
+
+Clues and other details:
+    [ ]
+
+Possible solutions (Brainstorm):
+    [+]
+
+✄ -----------------------
+Debug:
+    - Open the Navigator and access the View
+        Open DevTools, checking that everything is correct in the tabs:
+            - Console: Does it show any relevant errors?
+            - Network -> Click on the desired URL
+                "Headers" tab:
+                    - General V
+                        + Request URL (calling address)
+                        + Request Method (GET/POST)
+                        Status Code:
+                            + 200 OK
+                            x 400 Not Found (check that `paths` are typed correctly)
+                            x 500 Server Error (check error log `.../logs/php-error.log`)
+                    - Request Headersv
+                        + Referer (url "parent", who called the url in question)
+        "Payload" tab:
+            + Are the correct parameters and values ​​being passed?
+        Sources:
+            + Create and walk through Breakpoints created with the word "debugger" in the JavaScript code
+
+    - Turn on the Debug tool (XDebug, for example) of your IDE and place Breakpoints in the code you created:
+        -> JavaScript (with the word "debugger"), View and Controller.
+        -> Check that you are going through the expected sequence, and the values ​​registered in the variables./**
+
+    - Activate the "Version Extract" and check if the generated file shows any errors.
+        -> Copy the desired Query, paste it in your Database manager and run it to check the returned result.
+
+============
+✘ DRAFT

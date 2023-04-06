@@ -1,0 +1,21 @@
+class ListControllerTest{
+    setup(){
+        # setup test data and environment
+    }
+
+    testCreateList(){
+        # create a new list and check that it exists
+    }
+
+    testGetList(){
+        # create a new list, get the list by ID and check that it matches the created list
+    }
+
+    testUpdateList(){
+        # create a new list, update it and check that the updated list matches the changes
+    }
+
+    testDeleteList(){
+        # create a new list, delete it and check that it no longer exists
+    }
+}

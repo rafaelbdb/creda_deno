@@ -1,0 +1,3 @@
+enum cardinalDirections {
+    North, South, East, West
+}

@@ -1,0 +1,3 @@
+enum chessPieces {
+    King, Queen, Bishop, Knight, Rook, Pawn
+}

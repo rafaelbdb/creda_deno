@@ -1,0 +1,3 @@
+enum weatherConditions {
+    sunny, rainy, windy, stormy, cloudy
+}

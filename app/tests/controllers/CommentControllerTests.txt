@@ -1,0 +1,21 @@
+class CommentControllerTest{
+    setup(){
+        # setup test data and environment
+    }
+
+    testCreateComment(){
+        # create a new comment and check that it exists
+    }
+
+    testGetComment(){
+        # create a new comment, get the comment by ID and check that it matches the created comment
+    }
+
+    testUpdateComment(){
+        # create a new comment, update it and check that the updated comment matches the changes
+    }
+
+    testDeleteComment(){
+        # create a new comment, delete it and check that it no longer exists
+    }
+}

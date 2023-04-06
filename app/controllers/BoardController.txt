@@ -1,0 +1,17 @@
+class BoardController {
+    function createBoard(name, description) {
+    // Create a new board with the given name and description
+    }
+
+    function getBoard(board_id) {
+    // Get the board with the given ID
+    }
+
+    function updateBoard(board_id, name, description) {
+    // Update the name and/or description of the board with the given ID
+    }
+
+    function deleteBoard(board_id) {
+    // Delete the board with the given ID
+    }
+}

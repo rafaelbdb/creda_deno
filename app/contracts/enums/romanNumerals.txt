@@ -1,0 +1,3 @@
+enum romanNumerals {
+    I, V, X, L, C, D, M
+}

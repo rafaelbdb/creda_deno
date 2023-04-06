@@ -1,0 +1,3 @@
+class renderBoard(board) {
+  // Render the board with its lists and tasks
+}

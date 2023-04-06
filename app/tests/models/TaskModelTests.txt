@@ -1,0 +1,17 @@
+class TaskModelTests {
+    describe('Task model', () => {
+        it('should create a new task', () => {
+            const task: Task = {
+            title: 'Test task',
+            listId: 1,
+            createdBy: 1,
+            updatedBy: 1
+            };
+            const newTask = new Task(task);
+            expect(newTask.title).toBe(task.title);
+            expect(newTask.listId).toBe(task.listId);
+            expect(newTask.createdBy).toBe(task.createdBy);
+            expect(newTask.updatedBy).toBe(task.updatedBy);
+        });
+    });
+}

@@ -1,0 +1,1 @@
+interface UserControllerInterface extends AbstractController {}

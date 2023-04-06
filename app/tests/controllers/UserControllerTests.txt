@@ -1,0 +1,21 @@
+class UserControllerTest{
+    setup(){
+        # setup test data and environment
+    }
+
+    testCreateUser(){
+        # create a new user and check that it exists
+    }
+
+    testGetUser(){
+        # create a new user, get the user by ID and check that it matches the created user
+    }
+
+    testUpdateUser(){
+        # create a new user, update it and check that the updated user matches the changes
+    }
+
+    testDeleteUser(){
+        # create a new user, delete it and check that it no longer exists
+    }
+}

@@ -1,0 +1,17 @@
+class TaskController {
+    function createTask(list_id, name, description, due_date) {
+    // Create a new task with the given name, description, and due date, and add it to the list with the given ID
+    }
+
+    function getTask(task_id) {
+    // Get the task with the given ID
+    }
+
+    function updateTask(task_id, name, description, due_date) {
+    // Update the name, description, and/or due date of the task with the given ID
+    }
+
+    function deleteTask(task_id) {
+    // Delete the task with the given ID
+    }
+}

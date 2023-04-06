@@ -1,0 +1,3 @@
+enum basic2Dshapes {
+    Nonagon, Ellipse, Rectangular, Rectangular Prism, Octagon, Cone, Triangle, Scalene triangle, Arrow, Cube, Cylinder, Star, Heptagon, Hexagon, Crescent, Pyramid, Right triangle, Parallelogram, Rhombus, Square, Pentagon, Trapezoid, Circle, Oval, Decagon, Heart, Cross
+}

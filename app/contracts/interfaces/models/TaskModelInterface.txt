@@ -1,0 +1,10 @@
+interface TaskModelInterface {
+  id: number;
+  title: string;
+  description?: string;
+  listId: number;
+  createdBy: number;
+  updatedBy: number;
+  createdAt?: Date;
+  updatedAt?: Date;
+}

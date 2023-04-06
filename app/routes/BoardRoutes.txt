@@ -1,0 +1,6 @@
+class BoardRoutes {
+    POST /boards -> createBoard(name, description)
+    GET /boards/:board_id -> getBoard(board_id)
+    PUT /boards/:board_id -> updateBoard(board_id, name, description)
+    DELETE /boards/:board_id -> deleteBoard(board_id)
+}
