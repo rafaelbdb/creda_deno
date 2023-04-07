@@ -1,9 +1,0 @@
-interface CommentModelInterface {
-  id: number;
-  text: string;
-  taskId: number;
-  createdBy: number;
-  updatedBy: number;
-  createdAt?: Date;
-  updatedAt?: Date;
-}

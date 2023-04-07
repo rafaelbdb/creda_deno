@@ -1,9 +1,0 @@
-interface ListModelInterface {
-  id: number;
-  name: string;
-  boardId: number;
-  createdBy: number;
-  updatedBy: number;
-  createdAt?: Date;
-  updatedAt?: Date;
-}
