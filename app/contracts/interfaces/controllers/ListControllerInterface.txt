@@ -1,3 +1,0 @@
-interface ListControllerInterface extends AbstractController {
-  moveTask(req: Request, res: Response): Promise<void>;
-}

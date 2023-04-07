@@ -1,3 +1,0 @@
-interface TaskControllerInterface extends AbstractController {
-  move(req: Request, res: Response): Promise<void>;
-}
