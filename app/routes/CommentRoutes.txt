@@ -1,6 +1,0 @@
-class CommentRoutes {
-    POST /comments -> createComment(task_id, text, author)
-    GET /comments/:comment_id -> getComment(comment_id)
-    PUT /comments/:comment_id -> updateComment(comment_id, text)
-    DELETE /comments/:comment_id -> deleteComment(comment_id)
-}

@@ -1,5 +1,6 @@
 Main task:
     Create an income and expense tracker app, with a login system.
+    Must show the balance, income, expense, and average income and expense per month.
 
 Estimated time (40 hours):
     4 hours for planning;
@@ -8,7 +9,88 @@ Estimated time (40 hours):
 ✄ -----------------------
 Brainstorm:
     Ambient configuration:
-        [ ] Docker / Docker-compose
-        [ ] MongoDB
-        [ ] Git/GitHub
-        [ ] Deno (TypeScript Backend)
+        [-] Docker / Docker-compose
+        [+] MongoDB
+        [+] Git/GitHub
+        [+] Deno (TypeScript Backend)
+
+    Index:
+        [ ] Login
+        [ ] Signup
+        [ ] Dashboard
+            [ ] Balance
+            [ ] Income
+            [ ] Expense
+            [ ] Average income
+            [ ] Average expense
+        [ ] Movements
+            [ ] Create movement
+            [ ] Edit movement
+            [ ] Delete movement
+            [ ] List movements
+        [ ] User
+            [ ] Change password
+            [ ] Delete account
+            [ ] Logout
+
+    User:
+        [ ] Signup
+            [ ] Name
+            [ ] Username
+            [ ] Email
+            [ ] Password
+                @important => Must be converted to hash before saving
+            [-] @later Permissions (avoiding complexity for now)
+        [ ] Login
+            [ ] Signup
+            [ ] Email (forces login to be unique)
+            [ ] Password
+        [ ] Logout
+        [ ] Change password
+            [ ] Old password
+            [ ] New password
+            [ ] Confirm new password
+        [ ] Delete account
+            [ ] Password
+            [ ] Confirm password
+            [ ] Must logout automatically, returning to login page
+    
+    Movements:
+        [ ] Create movement
+            [ ] Description
+            [ ] Amount
+            [ ] Type (income/expense)
+            [ ] Category
+            [ ] Date
+        [ ] Edit movement
+            [ ] Description
+            [ ] Amount
+            [ ] Type (income/expense)
+            [ ] Category
+            [ ] Date
+        [ ] Delete movement
+        [ ] List movements
+            [ ] Date range
+            [ ] Category
+            [ ] Description
+            [ ] Amount
+            [ ] Type (income/expense)
+    
+    Dashboard:
+        [ ] Balance
+        [ ] Income
+        [ ] Expense
+        [ ] Average income
+        [ ] Average expense
+    
+    Dashboard filters:
+        [ ] Date range
+        [ ] Category
+        [ ] Description
+        [ ] Amount
+        [ ] Type (income/expense)
+
+✄ -----------------------
+Time Spent:
+    - Planning: 3 hours
+    - Development: 7 hours

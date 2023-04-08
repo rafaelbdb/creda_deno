@@ -1,6 +1,0 @@
-class ListRoutes {
-    POST /lists -> createList(board_id, name)
-    GET /lists/:list_id -> getList(list_id)
-    PUT /lists/:list_id -> updateList(list_id, name)
-    DELETE /lists/:list_id -> deleteList(list_id)
-}

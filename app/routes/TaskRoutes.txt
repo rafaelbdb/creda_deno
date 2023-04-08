@@ -1,6 +1,0 @@
-class TaskRoutes {
-    POST /tasks -> createTask(list_id, name, description, due_date)
-    GET /tasks/:task_id -> getTask(task_id)
-    PUT /tasks/:task_id -> updateTask(task_id, name, description, due_date)
-    DELETE /tasks/:task_id -> deleteTask(task_id)
-}

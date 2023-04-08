@@ -1,4 +1,4 @@
-interface RouterInterface {
+export interface RouterInterface {
   use(path: string, controller: Controller): void;
   get(path: string, handler: RequestHandler): void;
   post(path: string, handler: RequestHandler): void;

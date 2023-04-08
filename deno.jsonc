@@ -1,5 +1,17 @@
 {
-  "tasks": {
-    "dev": "deno run --watch main.ts"
-  }
+    "tasks": {
+        "dev": "deno run --watch main.ts"
+    },
+    "compilerOptions": {
+        // "jsx": "vue",
+        // "jsxFactory": "h",
+        "lib": ["dom", "ESNext"],
+        "target": "esnext",
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitAny": true,
+        "strict": true,
+        "watch": true
+    }
 }
