@@ -1,3 +1,0 @@
-class renderList(list) {
-  // Render the list with its tasks
-}

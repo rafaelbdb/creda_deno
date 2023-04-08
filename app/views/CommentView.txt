@@ -1,3 +1,0 @@
-class renderComment(comment) {
-  // Render the comment with its author and text
-}

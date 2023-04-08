@@ -1,8 +1,9 @@
-# CREDA - Controle de Receitas E Despesas Adronilson
 
-Remake do exercício passado pelo Adronilson.
+# CREDA - Revenue and Expense Control by Adronilson
 
-## Características
+A remake of the previous exercise by Adronilson.
 
-- Nesta versão usei Deno como backend para os arquivos TypeScript.
-- Também usei como base a estrutura do projeto `https://github.com/rafaelbdb/generic_mvc_restful_api`
+## Features
+
+- In this version, I used Deno as the backend for the TypeScript files.
+- I also used the project structure of https://github.com/rafaelbdb/generic_mvc_restful_api as the basis.

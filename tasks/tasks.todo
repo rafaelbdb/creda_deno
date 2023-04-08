@@ -9,29 +9,29 @@ Estimated time (40 hours):
 ✄ -----------------------
 Brainstorm:
     Ambient configuration:
-        [-] Docker / Docker-compose
         [+] MongoDB
         [+] Git/GitHub
         [+] Deno (TypeScript Backend)
+        [ ] Docker / Docker-compose
 
     Index:
-        [ ] Login
-        [ ] Signup
-        [ ] Dashboard
-            [ ] Balance
-            [ ] Income
-            [ ] Expense
-            [ ] Average income
-            [ ] Average expense
-        [ ] Movements
-            [ ] Create movement
-            [ ] Edit movement
-            [ ] Delete movement
-            [ ] List movements
-        [ ] User
+        [ ] Signup Form
+            [ ] Name
+            [ ] Username
+            [ ] Email
+            [ ] Password
+            [ ] Confirm password
+            [ ] Signup button
+            [ ] Login button
+        [ ] Login Form
+            [ ] Email
+            [ ] Password
+            [ ] Login button
+            [ ] Signup button
+        [ ] User Menu
+            [ ] Logout
             [ ] Change password
             [ ] Delete account
-            [ ] Logout
 
     User:
         [ ] Signup
@@ -54,7 +54,29 @@ Brainstorm:
             [ ] Password
             [ ] Confirm password
             [ ] Must logout automatically, returning to login page
-    
+
+    Dashboard:
+        [ ] Balance
+        [ ] Income
+        [ ] Expense
+        [ ] Average income
+        [ ] Average expense
+        [ ] Movements
+            [ ] Create
+                [ ] Date range
+                [ ] Category
+                [ ] Description
+                [ ] Amount
+                [ ] Type (income/expense)
+            [ ] Edit
+            [ ] Delete
+            [ ] List
+                [ ] Date range
+                [ ] Category
+                [ ] Description
+                [ ] Amount
+                [ ] Type (income/expense)
+
     Movements:
         [ ] Create movement
             [ ] Description
@@ -82,15 +104,15 @@ Brainstorm:
         [ ] Expense
         [ ] Average income
         [ ] Average expense
-    
-    Dashboard filters:
-        [ ] Date range
-        [ ] Category
-        [ ] Description
-        [ ] Amount
-        [ ] Type (income/expense)
+        Filters:
+            [ ] Date range
+            [ ] Category
+            [ ] Description
+            [ ] Amount
+            [ ] Type (income/expense)
 
 ✄ -----------------------
 Time Spent:
-    - Planning: 3 hours
-    - Development: 7 hours
+    - Planning: 2 hours
+    - Ambient config: 1 hours
+    - Development: 0 hours

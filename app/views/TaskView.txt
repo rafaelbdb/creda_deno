@@ -1,3 +1,0 @@
-class renderTask(task) {
-  // Render the task with its details and comments
-}
