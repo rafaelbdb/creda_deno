@@ -6,13 +6,17 @@ Estimated time (40 hours):
     4 hours for planning;
     36 hours for development;
 
+Time Spent:
+    - Planning: 2 hours
+    - Ambient config: 3 hours
+    - Development: 0 hours
+
 ✄ -----------------------
 Brainstorm:
     Ambient configuration:
         [+] MongoDB
         [+] Git/GitHub
         [+] Deno (TypeScript Backend)
-        [ ] Docker / Docker-compose
 
     Index:
         [ ] Signup Form
@@ -110,9 +114,3 @@ Brainstorm:
             [ ] Description
             [ ] Amount
             [ ] Type (income/expense)
-
-✄ -----------------------
-Time Spent:
-    - Planning: 2 hours
-    - Ambient config: 1 hours
-    - Development: 0 hours

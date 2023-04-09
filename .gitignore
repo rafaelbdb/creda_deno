@@ -1,1 +1,2 @@
-/generic_mvc_restful_api.code-workspace
+*.code-workspace
+app/.env

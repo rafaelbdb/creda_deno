@@ -11,7 +11,7 @@
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "noImplicitAny": true,
-        "strict": true,
-        "watch": true
+        "strict": true
+        // "watch": true
     }
 }
